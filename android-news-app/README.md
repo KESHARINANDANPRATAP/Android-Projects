@@ -1,13 +1,11 @@
-# face-mask-detection-keras
+News App Project
+The application connects to the internet and fetches news from the New York Times API using HttpURLConnection, which is then parsed using a custom built JSON parser. The parsed information is then presented as a news feed in namely four categories - Tech, Science, Travel, and Books. The splash screen presents these categories with a help of a tabbed layout and viewpager, thereby doing away with additional screens and making it easier for the user to access any news category with just a finger swipe.
 
-This project is implemented in Python using Keras, Tensorflow and OpenCV.
+Objective
+The goal is to create a News feed app that provides regularly updated news from the internet.
 
-## Credits and Links
-
-The original dataset is prepared by [Prajna Bhandary](https://www.linkedin.com/in/prajna-bhandary-0b03a416a/) and available at [Github](https://github.com/prajnasb/observations/tree/master/experiements/data)
-
-## Motivated by the works of,
-
-1. [Adrian Rosebrock](https://www.pyimagesearch.com/2020/05/04/covid-19-face-mask-detector-with-opencv-keras-tensorflow-and-deep-learning/)
-2. [sentdex](https://pythonprogramming.net/convolutional-neural-network-deep-learning-python-tensorflow-keras/)
-3. [Prajna Bhandary](https://github.com/prajnasb/observations/tree/master/experiements/data)
+Tools
+Gradle v4.1
+Android Plugin v3.0.1
+Android API v27
+Android Build Tools v27
