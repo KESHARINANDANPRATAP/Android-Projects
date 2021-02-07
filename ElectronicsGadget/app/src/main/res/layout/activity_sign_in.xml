@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.galore.gadget.gadgetgalore.SignIn">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/edtPhone"
+        android:hint="Phone Number"
+        android:text="011223344"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="#ffffff"
+        android:textSize="34sp"
+        android:inputType="phone"
+        app:met_baseColor="#ffffff"
+        app:met_floatingLabel="highlight"
+        app:met_maxCharacters="11"
+        app:met_primaryColor="#ffffff"
+        app:met_singleLineEllipsis="true"
+
+        />
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtPassword"
+            android:hint="Password"
+            android:text="12345"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textColor="#ffffff"
+            android:textSize="34sp"
+            android:inputType="textPassword"
+            app:met_baseColor="#ffffff"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="11"
+            app:met_primaryColor="#ffffff"
+            app:met_singleLineEllipsis="true"
+
+            />
+
+
+
+    </LinearLayout>
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/btnSignIn"
+        android:text="Sign In"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_alignParentBottom="true"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:layout_height="wrap_content"
+        app:buttonColor="@color/btnSignActive"
+        />
+
+
+
+
+</RelativeLayout>
